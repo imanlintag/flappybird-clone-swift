@@ -16,6 +16,8 @@
 		B44270CD1D74EA6000482F72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B44270CB1D74EA6000482F72 /* LaunchScreen.storyboard */; };
 		B44270D81D74EA6000482F72 /* flappybird_cloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44270D71D74EA6000482F72 /* flappybird_cloneTests.swift */; };
 		B44270E31D74EA6000482F72 /* flappybird_cloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44270E21D74EA6000482F72 /* flappybird_cloneUITests.swift */; };
+		B44270FD1D74F44000482F72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B44270FC1D74F44000482F72 /* Images.xcassets */; };
+		B44270FF1D74F5B100482F72 /* bird.atlas in Resources */ = {isa = PBXBuildFile; fileRef = B44270FE1D74F5B100482F72 /* bird.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		B44270DE1D74EA6000482F72 /* flappybird-cloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "flappybird-cloneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B44270E21D74EA6000482F72 /* flappybird_cloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flappybird_cloneUITests.swift; sourceTree = "<group>"; };
 		B44270E41D74EA6000482F72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B44270FC1D74F44000482F72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B44270FE1D74F5B100482F72 /* bird.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = bird.atlas; path = "flappybird-clone/bird.atlas"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 		B44270B21D74EA5F00482F72 = {
 			isa = PBXGroup;
 			children = (
+				B44270FC1D74F44000482F72 /* Images.xcassets */,
+				B44270FE1D74F5B100482F72 /* bird.atlas */,
 				B44270BD1D74EA6000482F72 /* flappybird-clone */,
 				B44270D61D74EA6000482F72 /* flappybird-cloneTests */,
 				B44270E11D74EA6000482F72 /* flappybird-cloneUITests */,
@@ -238,6 +244,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B44270FF1D74F5B100482F72 /* bird.atlas in Resources */,
+				B44270FD1D74F44000482F72 /* Images.xcassets in Resources */,
 				B44270C11D74EA6000482F72 /* GameScene.sks in Resources */,
 				B44270CD1D74EA6000482F72 /* LaunchScreen.storyboard in Resources */,
 				B44270CA1D74EA6000482F72 /* Assets.xcassets in Resources */,
@@ -411,6 +419,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "flappybird-clone/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.flappybird-clone";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,6 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "flappybird-clone/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.flappybird-clone";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -497,6 +507,7 @@
 				B44270E91D74EA6000482F72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B44270EA1D74EA6000482F72 /* Build configuration list for PBXNativeTarget "flappybird-cloneTests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +516,7 @@
 				B44270EC1D74EA6000482F72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B44270ED1D74EA6000482F72 /* Build configuration list for PBXNativeTarget "flappybird-cloneUITests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +525,7 @@
 				B44270EF1D74EA6000482F72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
